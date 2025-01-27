@@ -1,0 +1,98 @@
+.full-screen {
+    width: 100%;
+    height: 100%;
+    background-color: #0A0A0A;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-title {
+    font-size: 120px;
+    color: #FFFFFF;
+    -unity-text-align: middle-center;
+    margin-bottom: 80px;
+    -unity-font-style: bold;
+    letter-spacing: 10px;
+}
+
+.game-title-shadow {
+    position: absolute;
+    top: 165px;
+    color: #FF3366;
+    opacity: 0.5;
+    translate: 4px 4px;
+}
+
+.button-container {
+    width: 500px;
+    align-items: center;
+    padding: 40px;
+    background-color: #141414;
+}
+
+.menu-button {
+    width: 400px;
+    height: 70px;
+    margin: 15px;
+    padding: 8px;
+    font-size: 28px;
+    -unity-font-style: bold;
+    background-color: #FF3366;
+    border-width: 0;
+    color: #FFFFFF;
+    translate: 0 0;
+}
+
+.menu-button-shadow {
+    width: 400px;
+    height: 70px;
+    margin: 15px;
+    background-color: #99001F;
+    position: absolute;
+    translate: 4px 4px;
+}
+
+.button-wrapper {
+    width: 400px;
+    height: 70px;
+    margin: 15px;
+    position: relative;
+}
+
+.menu-button:hover {
+    translate: 2px 2px;
+}
+
+.menu-button:active {
+    translate: 4px 4px;
+}
+
+.version-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #666666;
+    font-size: 16px;
+}
+
+.accent-block {
+    position: absolute;
+    background-color: #FF3366;
+    opacity: 0.1;
+}
+
+.block-1 {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    right: 10%;
+    rotate: 15deg;
+}
+
+.block-2 {
+    width: 150px;
+    height: 150px;
+    bottom: 15%;
+    left: 10%;
+    rotate: -20deg;
+}
